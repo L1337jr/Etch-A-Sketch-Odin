@@ -1,0 +1,43 @@
+html {
+  background-color: #659DBD;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}   
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    position: absolute;
+    top: 2rem;
+    margin: 0 auto;
+    width: 480px;
+    height: 480px;
+  }
+
+  .grid-item {
+    background-color: white;
+ 
+  }
+
+
+
+  .newGrid {
+    display: flex;
+    height: 23px;
+    position: absolute;
+    top: 8rem;
+    right: 10rem;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: wavy;
+    font-size: 16px;
+    margin: 10px 2px;
+  }
+
