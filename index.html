@@ -8,10 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <button class="newGrid">New</button>
+    <header><h1>Etch-a-sketch</h1></header>
+   
+        <main class="main">
+
+        <div class="settings">
+            <div class="range-value">16 x 16</div>
+            <input class="slider" type="range" id="range" value="16" min="1" max="64">
+            <button class="newGrid">Clear</button>
+            <button class="black">Black</button>
+            <button class="rainbow">Rainbow</button>
+            
+        </div>
+
         <div class="grid-container"></div>
-    </div>
-    <script src="app.js"></script>
+       
+    </main>
+        
+    <script defer src="app.js"></script>
 </body>
 </html>
